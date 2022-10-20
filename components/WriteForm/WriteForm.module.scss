@@ -1,0 +1,51 @@
+.titleField {
+    margin-bottom: 10px;
+    &:before, &:after {
+        display: none !important;
+    }
+    input {
+        font-size: 36px !important;
+        font-weight: 600 !important;
+        letter-spacing: 1.5px;
+    }   
+
+}
+
+.boxForm {
+    max-width: 600px;
+    margin: auto;
+}
+
+.editor {
+    font-size: 18px;
+}
+
+.test:last-child {
+    display: none;
+}
+
+.button {
+    transition: all ease 0.2s !important;
+    background: white !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.7px;
+    border: 1px solid rgba(0, 0, 0, 0.6) !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.button:hover {
+    background-color: rgba(25, 118, 210, 0.04);
+    border: 1px solid #1976d2;
+    color: #1976d2 !important;
+}
+
+.element {
+    background: linear-gradient(
+      352deg,
+      rgba(15, 37, 110, 1) 12%,
+      rgba(32, 178, 7, 1) 84%
+    );
+    background-blend-mode: normal;
+    transform: translate(-13px, 0px) scale(2, 3) skew(28deg, 15deg);
+  }

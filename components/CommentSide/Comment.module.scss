@@ -1,0 +1,27 @@
+.comment {
+    position: absolute;
+    left: 1450px;
+    width: 320px;
+    top: 90px;
+}
+
+.root {
+    padding-left: 20px;
+}
+
+.rotated {
+    transform: rotate(-90deg) translateX(155px) translateY(10px);
+    transform-origin: right;
+}
+
+.itemAvatar {
+    display: flex;
+    justify-content: center;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+}

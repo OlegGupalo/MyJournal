@@ -1,0 +1,23 @@
+.menu {
+    position: absolute;
+    left: -15px;
+    top: 60px;
+}
+
+.menuItem {
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    :hover {
+        color: #055e6e
+    }
+}
+.btn {
+    width: 165px;
+    justify-content: left !important;
+}
+
+.menuItem button {
+    font-weight: 600;
+}

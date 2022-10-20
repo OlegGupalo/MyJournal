@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+}
+
+.headerItem {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerAvatar {
+    display: 'flex';
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.avatar {
+    border-radius: 10px;
+}

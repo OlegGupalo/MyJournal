@@ -1,0 +1,20 @@
+.form {
+    margin-top: 15px;
+    border: 1px solid #f7f7f7;
+
+    border-radius: 10px;
+    padding: 17px !important;
+    background-color: #f7f7f7;
+}
+
+.comment {
+    &:before, &:after {
+        display: none;
+    }
+    
+    cursor: pointer;
+}
+
+.addButton {
+    margin-top: 10px !important;
+}
